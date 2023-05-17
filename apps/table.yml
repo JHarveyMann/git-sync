@@ -733,7 +733,8 @@ appTemplate:
                 - newRow: null
                 - emptyMessage: No rows found
                 - columnEditable:
-                    ordered: []
+                    ordered:
+                      - Custom Column 1: false
                 - _viewerColumnSummaryTypes:
                     object: {}
                 - filters:
@@ -757,10 +758,16 @@ appTemplate:
                 - defaultSelectedRow: first
                 - freezeActionButtonColumns: false
                 - sort: null
-                - _columns: []
+                - _columns:
+                    - id
+                    - name
+                    - email
+                    - sales
+                    - Custom Column 1
                 - sortByRawValue:
                     ordered: []
-                - calculatedColumns: []
+                - calculatedColumns:
+                    - Custom Column 1
                 - selectedRow:
                     object:
                       index: null
