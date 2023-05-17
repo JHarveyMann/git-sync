@@ -1,0 +1,130 @@
+version: 43.0.9
+pageUuid: aca803dc-6f58-11ed-b297-473153bf6e37
+appTemplate:
+  plugins:
+    ordered:
+      - $main:
+          pluginTemplate:
+            id: $main
+            type: frame
+            subtype: Frame
+            template:
+              ordered:
+                - type: main
+                - sticky: false
+                - isHiddenOnDesktop: false
+                - isHiddenOnMobile: false
+            style:
+              ordered: []
+            createdAt: 2022-11-28T20:10:19.745Z
+      - confetti:
+          pluginTemplate:
+            id: confetti
+            type: datasource
+            subtype: JavascriptQuery
+            resourceName: JavascriptQuery
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - lastReceivedFromResourceAt: null
+                - queryDisabledMessage: ''
+                - servedFromCache: false
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: latest
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: false
+                - showFailureToaster: true
+                - query: utils.confetti();
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: null
+                - error: null
+                - privateParams: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - requestSentTimestamp: null
+                - metadata: null
+                - queryRunTime: null
+                - changesetObject: ''
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - finished: null
+                - confirmationMessage: null
+                - isFetching: false
+                - changeset: ''
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - resourceTypeOverride: null
+                - watchedParams: []
+                - enableErrorTransformer: false
+                - showLatestVersionUpdatedWarning: false
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - showUpdateSetValueDynamicallyToggle: true
+                - runWhenPageLoads: true
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - events: []
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - queryFailureConditions: ''
+                - changesetIsObject: false
+                - enableCaching: false
+                - allowedGroups: []
+                - offlineQueryType: None
+                - queryThrottleTime: '750'
+                - updateSetValueDynamically: false
+                - notificationDuration: ''
+            createdAt: 2023-01-23T16:02:26.100Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget2
+            template:
+              ordered:
+                - heightType: auto
+                - horizontalAlign: left
+                - hidden: false
+                - imageWidth: fit
+                - showInEditor: false
+                - verticalAlign: center
+                - tooltipText: ''
+                - value: Update
+                - disableMarkdown: false
+                - overflowType: scroll
+                - maintainSpaceWhenHidden: false
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 1.8
+                col: 4
+                height: 0.6
+                width: 3
+            createdAt: 2023-01-23T16:02:11.833Z
+  queryStatusVisibility: false
+  experimentalPerfFeatures:
+    object:
+      serverDepGraphEnabled: false
+      useRuntimeV2: false
+  rootScreen: null
+  version: 2.108.10
+  markdownLinkBehavior: auto
