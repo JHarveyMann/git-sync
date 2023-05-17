@@ -515,9 +515,9 @@ appTemplate:
                 - events:
                     - ordered:
                         - event: clickAction
-                        - type: datasource
-                        - method: trigger
-                        - pluginId: query1
+                        - type: util
+                        - method: confetti
+                        - pluginId: ''
                         - targetId: '71398'
                         - params:
                             ordered: []
