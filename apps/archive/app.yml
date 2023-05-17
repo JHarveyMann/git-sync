@@ -1,0 +1,48 @@
+version: 43.0.9
+pageUuid: c2ca0f06-c42c-11ed-a01d-0794fc86dc51
+appTemplate:
+  plugins:
+    ordered:
+      - $main:
+          pluginTemplate:
+            id: $main
+            type: frame
+            subtype: Frame
+            template:
+              ordered:
+                - type: main
+                - sticky: false
+                - isHiddenOnDesktop: false
+                - isHiddenOnMobile: false
+            style:
+              ordered: []
+            createdAt: 2023-03-16T19:00:11.222Z
+      - module1:
+          pluginTemplate:
+            id: module1
+            type: widget
+            subtype: GlobalWidget
+            template:
+              ordered:
+                - showFetchingIndicator: boolean
+                - heightType: auto
+                - name: module
+                - pageUuid: 464cf7d6-c42c-11ed-a986-e74b0b7e7e3a
+                - childNamespace: module1
+            style:
+              ordered: []
+            position2:
+              position2:
+                col: 4
+                height: 2.4
+                width: 3
+            createdAt: 2023-03-16T19:00:11.189Z
+  queryStatusVisibility: false
+  experimentalPerfFeatures:
+    object:
+      serverDepGraphEnabled: false
+      useRuntimeV2: false
+      runtimeV2OptOut: false
+  rootScreen: null
+  version: 2.111.3
+  markdownLinkBehavior: auto
