@@ -685,7 +685,16 @@ appTemplate:
                       "sales": 243
                     }]
                 - displayedData: null
-                - actionButtons: []
+                - actionButtons:
+                    - ordered:
+                        - actionButtonText: Action 1
+                        - actionButtonType: runQuery
+                        - actionButtonQuery: ''
+                        - actionButtonInternalUrlPath: ''
+                        - actionButtonInternalUrlQuery: ''
+                        - actionButtonUrl: ''
+                        - actionButtonNewWindow: false
+                        - actionButtonDisabled: ''
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
                 - defaultSortByColumn: ''
