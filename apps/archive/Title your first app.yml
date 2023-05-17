@@ -1,0 +1,12 @@
+version: 43.0.9
+pageUuid: 3eebbb04-f4af-11ed-ab3f-c710e681fc36
+appTemplate:
+  plugins:
+    ordered: []
+  experimentalPerfFeatures:
+    object:
+      serverDepGraphEnabled: false
+      useRuntimeV2: false
+      runtimeV2OptOut: false
+  rootScreen: null
+  version: 2.117.5
