@@ -138,7 +138,8 @@ appTemplate:
                     - 5925d
                     - 1ffce
                     - fbbbc
-                - _actionIds: []
+                - _actionIds:
+                    - '71398'
                 - _clearChangeset: false
                 - _limitOffsetRowCount: null
                 - selectedSourceRow: null
@@ -419,7 +420,8 @@ appTemplate:
                       - 1ffce: left
                       - fbbbc: left
                 - _actionIcon:
-                    ordered: []
+                    ordered:
+                      - '71398': bold/interface-edit-pencil
                 - _columnTooltip:
                     ordered:
                       - cd4d4: ''
@@ -452,7 +454,8 @@ appTemplate:
                 - filterStack: null
                 - changesetObject: null
                 - _actionDisabled:
-                    ordered: []
+                    ordered:
+                      - '71398': ''
                 - _columnReferenceId:
                     ordered:
                       - cd4d4: ''
@@ -553,11 +556,13 @@ appTemplate:
                 - sort:
                     array: []
                 - _actionLabel:
-                    ordered: []
+                    ordered:
+                      - '71398': Action 1
                 - _virtualizeEndIndex: 0
                 - selectedRow: null
                 - _actionHidden:
-                    ordered: []
+                    ordered:
+                      - '71398': false
                 - maintainSpaceWhenHidden: false
                 - _columnHidden:
                     ordered:
