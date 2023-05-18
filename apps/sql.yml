@@ -197,9 +197,9 @@ appTemplate:
                 - updateSetValueDynamically: false
                 - notificationDuration: ''
             createdAt: 2023-05-18T18:27:23.209Z
-      - deleteMigration2:
+      - addMigration:
           pluginTemplate:
-            id: deleteMigration2
+            id: addMigration
             type: datasource
             subtype: SqlQueryUnified
             resourceName: 3cbf0380-1d18-4d31-abea-0a9e0fc1d657
