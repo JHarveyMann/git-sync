@@ -222,7 +222,9 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: select * from "SequelizeMeta" ORDER BY name
+                - query: >-
+                    INSERT INTO "SequelizeMeta" (name) VALUES
+                    ('20230412000000-add-provider-to-retooldb-provision.js')
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
