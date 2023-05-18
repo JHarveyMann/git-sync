@@ -1,0 +1,41 @@
+version: 43.0.9
+pageUuid: baa1c61e-f5a7-11ed-9a31-5fcc4393e827
+appTemplate:
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: SqlQueryUnified
+            resourceName: 3cbf0380-1d18-4d31-abea-0a9e0fc1d657
+            resourceDisplayName: retool postgres
+            template:
+              queryRefreshTime: ''
+              queryDisabledMessage: ''
+              successMessage: ''
+              queryDisabled: ''
+              resourceNameOverride: ''
+              runWhenModelUpdates: true
+              query: ''
+              privateParams: []
+              data: null
+              showSuccessToaster: true
+              confirmationMessage: null
+              watchedParams: []
+              timestamp: 0
+              runWhenPageLoads: false
+              queryTimeout: '10001'
+              requireConfirmation: false
+              queryThrottleTime: '750'
+            createdAt: 2023-05-18T18:13:45.765Z
+  queryStatusVisibility: false
+  experimentalPerfFeatures:
+    object:
+      serverDepGraphEnabled: false
+      useRuntimeV2: false
+      runtimeV2OptOut: false
+  rootScreen: null
+  version: 2.117.5
+  markdownLinkBehavior: auto
+  experimentalDataTabEnabled: true
