@@ -123,7 +123,9 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: DELETE FROM "SequelizeMeta" WHERE name = ''
+                - query: >-
+                    DELETE FROM "SequelizeMeta" WHERE name =
+                    '20230412000000-add-provider-to-retooldb-provision.js';
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
