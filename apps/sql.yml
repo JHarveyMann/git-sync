@@ -123,7 +123,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: select * from "SequelizeMeta" ORDER BY name
+                - query: DELETE FROM "SequelizeMeta" WHERE name = ''
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
