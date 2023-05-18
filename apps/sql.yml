@@ -3,9 +3,9 @@ pageUuid: baa1c61e-f5a7-11ed-9a31-5fcc4393e827
 appTemplate:
   plugins:
     ordered:
-      - get:
+      - getMigrations:
           pluginTemplate:
-            id: get
+            id: getMigrations
             type: datasource
             subtype: SqlQueryUnified
             resourceName: 3cbf0380-1d18-4d31-abea-0a9e0fc1d657
