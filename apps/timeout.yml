@@ -28,7 +28,7 @@ appTemplate:
                 - headers: ''
                 - showFailureToaster: true
                 - paginationEnabled: false
-                - query: sleep/80
+                - query: sleep/5
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
