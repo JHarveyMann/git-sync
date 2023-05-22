@@ -77,7 +77,7 @@ appTemplate:
 
                     return data
                 - events: []
-                - queryTimeout: '10001'
+                - queryTimeout: '120000'
                 - requireConfirmation: false
                 - type: GET
                 - queryFailureConditions: ''
