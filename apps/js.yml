@@ -1,0 +1,40 @@
+version: 43.0.9
+pageUuid: 4de9a256-fa59-11ed-a1de-2bd7a93e5a73
+appTemplate:
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: RESTQuery
+            resourceName: 329ce208-7b6c-4b59-b37a-8361e320c4df
+            resourceDisplayName: api
+            template:
+              queryRefreshTime: ''
+              queryDisabledMessage: ''
+              successMessage: ''
+              queryDisabled: ''
+              resourceNameOverride: ''
+              runWhenModelUpdates: true
+              query: ''
+              privateParams: []
+              data: null
+              showSuccessToaster: true
+              confirmationMessage: null
+              watchedParams: []
+              timestamp: 0
+              runWhenPageLoads: false
+              queryTimeout: '10001'
+              requireConfirmation: false
+              queryThrottleTime: '750'
+            createdAt: 2023-05-24T17:34:58.434Z
+  queryStatusVisibility: false
+  experimentalPerfFeatures:
+    object:
+      serverDepGraphEnabled: false
+      useRuntimeV2: false
+  rootScreen: null
+  version: 2.106.13
+  markdownLinkBehavior: auto
+  experimentalDataTabEnabled: true
