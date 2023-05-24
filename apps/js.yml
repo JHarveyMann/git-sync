@@ -102,7 +102,7 @@ appTemplate:
                 - headers: ''
                 - showFailureToaster: true
                 - paginationEnabled: false
-                - query: abc://api.jmann.nyc
+                - query: blob://api.jmann.nyc
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
