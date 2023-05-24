@@ -83,11 +83,13 @@ appTemplate:
           pluginTemplate:
             id: query2
             type: datasource
-            subtype: JavascriptQuery
-            resourceName: JavascriptQuery
+            subtype: RESTQuery
+            resourceName: REST-WithoutResource
             template:
               ordered:
                 - queryRefreshTime: ''
+                - paginationLimit: ''
+                - body: ''
                 - lastReceivedFromResourceAt: null
                 - queryDisabledMessage: ''
                 - servedFromCache: false
@@ -96,7 +98,10 @@ appTemplate:
                 - playgroundQuerySaveId: latest
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
+                - paginationPaginationField: ''
+                - headers: ''
                 - showFailureToaster: true
+                - paginationEnabled: false
                 - query: ''
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
@@ -110,6 +115,7 @@ appTemplate:
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
                 - requestSentTimestamp: null
+                - cookies: ''
                 - metadata: null
                 - queryRunTime: null
                 - changesetObject: ''
@@ -126,10 +132,11 @@ appTemplate:
                 - changeset: ''
                 - rawData: null
                 - queryTriggerDelay: '0'
-                - resourceTypeOverride: null
+                - resourceTypeOverride: ''
                 - watchedParams: []
                 - enableErrorTransformer: false
                 - showLatestVersionUpdatedWarning: false
+                - paginationDataField: ''
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
@@ -146,10 +153,12 @@ appTemplate:
                 - events: []
                 - queryTimeout: '10000'
                 - requireConfirmation: false
+                - type: GET
                 - queryFailureConditions: ''
                 - changesetIsObject: false
                 - enableCaching: false
                 - allowedGroups: []
+                - bodyType: json
                 - offlineQueryType: None
                 - queryThrottleTime: '750'
                 - updateSetValueDynamically: false
