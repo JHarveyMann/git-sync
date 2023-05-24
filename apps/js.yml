@@ -21,7 +21,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: ''
+                - query: return Object.keys(utils)
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
