@@ -104,7 +104,7 @@ appTemplate:
                 - showInEditor: false
                 - verticalAlign: center
                 - tooltipText: ''
-                - value: 👋 **Hello {{ current_user.firstName || 'friend' }}!**
+                - value: '{{ retoolContext.environment }}'
                 - _disclosedFields:
                     array: []
                 - disableMarkdown: false
@@ -119,6 +119,20 @@ appTemplate:
                 height: 0.6
                 width: 3
             createdAt: 2023-05-30T20:15:02.363Z
+      - $main:
+          pluginTemplate:
+            id: $main
+            type: frame
+            subtype: Frame
+            template:
+              ordered:
+                - type: main
+                - sticky: false
+                - isHiddenOnDesktop: false
+                - isHiddenOnMobile: false
+            style:
+              ordered: []
+            createdAt: 2023-05-30T20:15:02.388Z
   queryStatusVisibility: false
   experimentalPerfFeatures:
     object:
