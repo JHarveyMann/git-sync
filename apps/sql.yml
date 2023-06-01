@@ -319,10 +319,16 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: |-
-                    select * from pages p 
+                - query: >-
+                    select p.name, p."createdAt", ps."createdAt" ps_created,
+                    ps.data, t.name tag_name, t.description
+
+                    from pages p 
+
                     left join page_saves ps On ps."pageId" = p.id
-                    left join 
+
+                    left join tags t On p."releasedTagId" = t.id
+
                     WHERE p.name = 'release issue'
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
