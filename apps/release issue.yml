@@ -137,7 +137,7 @@ appTemplate:
                 - headers: ''
                 - showFailureToaster: true
                 - paginationEnabled: false
-                - query: https://restcountries.com/v3.1/name/france
+                - query: https://restcountries.com/v3.1/name/germany
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
