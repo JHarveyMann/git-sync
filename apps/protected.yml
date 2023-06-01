@@ -29,9 +29,11 @@ appTemplate:
                 - iconAfter: ''
                 - submitTargetId: null
                 - hidden: false
-                - text: Go
+                - text: Revert
                 - showInEditor: false
                 - tooltipText: ''
+                - _disclosedFields:
+                    array: []
                 - styleVariant: solid
                 - submit: false
                 - iconBefore: ''
@@ -59,6 +61,124 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2022-11-15T15:01:17.613Z
+      - navigation1:
+          pluginTemplate:
+            id: navigation1
+            type: widget
+            subtype: NavigationWidget2
+            template:
+              ordered:
+                - _disabledByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - heightType: auto
+                - iconByIndex:
+                    array: []
+                - srcWidth: null
+                - _iconByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - src: https://jmann.nyc/83d4d9a1f1ecd17d111e6b4a014043cd.svg
+                - overflowMode: scroll
+                - _parentKeyByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - _highlightByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - parentKeyByIndex:
+                    array: []
+                - highlightByIndex:
+                    array: []
+                - _appTargetByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - appTargetByIndex:
+                    array: []
+                - hidden: false
+                - data:
+                    array: []
+                - srcHeight: null
+                - itemTypeByIndex:
+                    array: []
+                - showInEditor: false
+                - _itemTypeByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - orientation: horizontal
+                - tooltipText: ''
+                - hiddenByIndex:
+                    array: []
+                - _hiddenByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - storageBlobId: ''
+                - _captionByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - _disclosedFields:
+                    array: []
+                - _hasMigratedNestedItems: true
+                - captionByIndex:
+                    array: []
+                - altText: ''
+                - itemMode: static
+                - dbBlobId: ''
+                - _tooltipByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - _automaticallyHighlightedIndices:
+                    array: []
+                - tooltipByIndex:
+                    array: []
+                - events:
+                    ordered: []
+                - _ids:
+                    - '08382'
+                    - 2c4f3
+                    - 08cb1
+                - iconPositionByIndex:
+                    array: []
+                - _iconPositionByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - _keyByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - disabled: false
+                - keyByIndex:
+                    array: []
+                - _labels:
+                    - Menu item 1
+                    - Menu item 2
+                    - Menu item 3
+                - srcType: src
+                - disabledByIndex:
+                    array: []
+                - horizontalAlignment: left
+                - maintainSpaceWhenHidden: false
+                - labels:
+                    array: []
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 10
+                col: 3
+                height: 0.8
+                width: 9
+            createdAt: 2023-04-26T18:30:10.923Z
       - table1:
           pluginTemplate:
             id: table1
@@ -239,12 +359,40 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2022-12-01T14:39:18.303Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget2
+            template:
+              ordered:
+                - heightType: auto
+                - horizontalAlign: left
+                - hidden: false
+                - imageWidth: fit
+                - showInEditor: false
+                - verticalAlign: center
+                - tooltipText: ''
+                - value: 👋 **Hello {{ current_user.firstName || 'friend' }}!**
+                - _disclosedFields:
+                    array: []
+                - disableMarkdown: false
+                - overflowType: scroll
+                - maintainSpaceWhenHidden: false
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 0.8
+                col: 7
+                height: 0.6
+                width: 3
+            createdAt: 2023-03-01T21:59:55.521Z
   queryStatusVisibility: false
   experimentalPerfFeatures:
     object:
       serverDepGraphEnabled: false
       useRuntimeV2: false
-      runtimeV2OptOut: false
   rootScreen: null
-  version: 2.102.5
+  version: 2.116.3
   markdownLinkBehavior: auto
