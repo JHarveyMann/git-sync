@@ -317,14 +317,19 @@ appTemplate:
                 - queryDisabled: ''
                 - playgroundQuerySaveId: latest
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: true
+                - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: ''
+                - query: |-
+                    select * from pages p 
+                    left join page_saves ps On ps."pageId" = p.id
+                    left join 
+                    WHERE p.name = 'release issue'
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - recordId: ''
                 - importedQueryInputs:
