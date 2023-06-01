@@ -434,8 +434,7 @@ appTemplate:
                 - showFailureToaster: true
                 - query: >-
                     select p.name app, t."pageSaveId", t.name release_id,
-                    t.description, ps."createdAt", ps.data, ps."branchId",
-                    ps."changesRecord"
+                    t.description, ps."createdAt", ps.data, ps."changesRecord"
 
                     from tags t 
 
