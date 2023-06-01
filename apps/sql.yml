@@ -30,6 +30,7 @@ appTemplate:
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
+                - workflowRunBodyType: raw
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
                 - warningCodes: []
@@ -129,6 +130,7 @@ appTemplate:
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
+                - workflowRunBodyType: raw
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
                 - warningCodes: []
@@ -228,6 +230,7 @@ appTemplate:
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
+                - workflowRunBodyType: raw
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
                 - warningCodes: []
@@ -313,9 +316,11 @@ appTemplate:
                 - databasePasswordOverride: ''
                 - queryDisabledMessage: ''
                 - servedFromCache: false
+                - offlineUserQueryInputs: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: latest
+                - workflowParams: null
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
@@ -333,6 +338,7 @@ appTemplate:
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
+                - workflowRunBodyType: raw
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
                 - warningCodes: []
@@ -389,6 +395,7 @@ appTemplate:
                 - events: []
                 - tableName: ''
                 - queryTimeout: '10000'
+                - workflowId: null
                 - requireConfirmation: false
                 - queryFailureConditions: ''
                 - changesetIsObject: false
@@ -417,9 +424,11 @@ appTemplate:
                 - databasePasswordOverride: ''
                 - queryDisabledMessage: ''
                 - servedFromCache: false
+                - offlineUserQueryInputs: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: latest
+                - workflowParams: null
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
@@ -435,6 +444,7 @@ appTemplate:
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
+                - workflowRunBodyType: raw
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
                 - warningCodes: []
@@ -491,6 +501,7 @@ appTemplate:
                 - events: []
                 - tableName: ''
                 - queryTimeout: '10000'
+                - workflowId: null
                 - requireConfirmation: false
                 - queryFailureConditions: ''
                 - changesetIsObject: false
@@ -511,6 +522,6 @@ appTemplate:
       useRuntimeV2: false
       runtimeV2OptOut: false
   rootScreen: null
-  version: 2.117.5
+  version: 2.121.1
   markdownLinkBehavior: auto
   experimentalDataTabEnabled: true
