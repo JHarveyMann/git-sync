@@ -423,7 +423,15 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: select * from app_metadata
+                - query: >-
+                    select p.name app, t."pageSaveId", t.name release_id,
+                    t.description, ps."createdAt", ps.data, ps."changesRecord"
+
+                    from tags t 
+
+                    left join pages p on t."pageId" = p.id
+
+                    left join page_saves ps ON t."pageSaveId" = ps.id
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
