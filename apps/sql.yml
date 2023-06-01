@@ -415,14 +415,15 @@ appTemplate:
                 - queryDisabled: ''
                 - playgroundQuerySaveId: latest
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: true
+                - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: ''
+                - query: select * from app_metadata
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - recordId: ''
                 - importedQueryInputs:
