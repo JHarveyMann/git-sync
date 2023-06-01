@@ -66,7 +66,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: ''
+                - query: return retoolContext.environment
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
