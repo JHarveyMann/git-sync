@@ -53,6 +53,6 @@ appTemplate:
       useRuntimeV2: false
       runtimeV2OptOut: false
   rootScreen: null
-  version: 2.113.19
+  version: 2.121.1
   markdownLinkBehavior: auto
   experimentalDataTabEnabled: true
