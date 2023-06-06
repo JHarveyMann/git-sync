@@ -593,7 +593,7 @@ appTemplate:
                     return data
                 - events: []
                 - tableName: ''
-                - queryTimeout: '10000'
+                - queryTimeout: '120000'
                 - requireConfirmation: false
                 - queryFailureConditions: ''
                 - changesetIsObject: false
