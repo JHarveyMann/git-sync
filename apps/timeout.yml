@@ -9,7 +9,6 @@ appTemplate:
             type: datasource
             subtype: RESTQuery
             resourceName: 329ce208-7b6c-4b59-b37a-8361e320c4df
-            resourceDisplayName: api
             template:
               ordered:
                 - queryRefreshTime: ''
