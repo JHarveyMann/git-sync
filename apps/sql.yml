@@ -624,7 +624,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: insert into test (name) values ('jmann')
+                - query: select * from test;
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
