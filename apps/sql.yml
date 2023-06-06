@@ -604,9 +604,9 @@ appTemplate:
                 - updateSetValueDynamically: false
                 - notificationDuration: ''
             createdAt: 2023-06-06T12:36:32.933Z
-      - query7:
+      - selectTest:
           pluginTemplate:
-            id: query7
+            id: selectTest
             type: datasource
             subtype: SqlQueryUnified
             resourceName: 3cbf0380-1d18-4d31-abea-0a9e0fc1d657
