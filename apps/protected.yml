@@ -389,10 +389,6 @@ appTemplate:
                 width: 3
             createdAt: 2023-03-01T21:59:55.521Z
   queryStatusVisibility: false
-  experimentalPerfFeatures:
-    object:
-      serverDepGraphEnabled: false
-      useRuntimeV2: false
   rootScreen: null
   version: 2.116.3
   markdownLinkBehavior: auto
