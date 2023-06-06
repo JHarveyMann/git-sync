@@ -713,7 +713,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: insert into test (name) values ('jmann');
+                - query: ''
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
@@ -731,7 +731,7 @@ appTemplate:
                 - filterBy: ''
                 - databaseHostOverride: ''
                 - metadata: null
-                - editorMode: sql
+                - editorMode: gui
                 - actionType: ''
                 - changesetObject: ''
                 - shouldUseLegacySql: false
