@@ -535,9 +535,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: >-
-                    alter table test alter column sleep set default
-                    pg_sleep(100);
+                - query: insert into test (name) values ('jmann')
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
