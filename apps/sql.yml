@@ -539,7 +539,7 @@ appTemplate:
                     CREATE TABLE IF NOT EXISTS test (
                        id SERIAL PRIMARY KEY,
                        name text,
-                       sleep text,
+                       sleep text
                     );
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
