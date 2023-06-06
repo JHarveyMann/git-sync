@@ -2696,9 +2696,5 @@ appTemplate:
                 height: 1
                 width: 5
             createdAt: 2022-12-14T23:05:37.780Z
-  experimentalPerfFeatures:
-    object:
-      serverDepGraphEnabled: false
-      useRuntimeV2: false
   rootScreen: null
   version: 2.107.0
