@@ -9,7 +9,6 @@ appTemplate:
             type: datasource
             subtype: SqlQueryUnified
             resourceName: e8685339-22de-4a4c-93c6-5697972b4c55
-            resourceDisplayName: retool_db
             template:
               ordered:
                 - queryRefreshTime: ''
