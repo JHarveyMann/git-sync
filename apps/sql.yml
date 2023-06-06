@@ -693,9 +693,9 @@ appTemplate:
                 - updateSetValueDynamically: false
                 - notificationDuration: ''
             createdAt: 2023-06-06T12:39:44.713Z
-      - query8:
+      - guiModeLongInsert:
           pluginTemplate:
-            id: query8
+            id: guiModeLongInsert
             type: datasource
             subtype: SqlQueryUnified
             resourceName: 3cbf0380-1d18-4d31-abea-0a9e0fc1d657
