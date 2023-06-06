@@ -165,10 +165,6 @@ appTemplate:
                 - notificationDuration: ''
             createdAt: 2023-05-24T17:45:07.649Z
   queryStatusVisibility: false
-  experimentalPerfFeatures:
-    object:
-      serverDepGraphEnabled: false
-      useRuntimeV2: false
   rootScreen: null
   version: 2.106.14
   markdownLinkBehavior: auto
