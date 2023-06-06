@@ -515,9 +515,9 @@ appTemplate:
                 - updateSetValueDynamically: false
                 - notificationDuration: ''
             createdAt: 2023-06-01T15:30:29.060Z
-      - query6:
+      - sqlModeLongInsert:
           pluginTemplate:
-            id: query6
+            id: sqlModeLongInsert
             type: datasource
             subtype: SqlQueryUnified
             resourceName: 3cbf0380-1d18-4d31-abea-0a9e0fc1d657
