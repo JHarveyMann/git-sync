@@ -533,14 +533,20 @@ appTemplate:
                 - queryDisabled: ''
                 - playgroundQuerySaveId: latest
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: true
+                - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: ''
+                - query: |-
+                    CREATE TABLE IF NOT EXISTS test (
+                       id SERIAL PRIMARY KEY,
+                       name text,
+                       sleep text,
+                    );
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - recordId: ''
                 - importedQueryInputs:
