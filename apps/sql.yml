@@ -732,7 +732,7 @@ appTemplate:
                 - databaseHostOverride: ''
                 - metadata: null
                 - editorMode: gui
-                - actionType: ''
+                - actionType: INSERT
                 - changesetObject: ''
                 - shouldUseLegacySql: false
                 - errorTransformer: >-
@@ -745,7 +745,7 @@ appTemplate:
                 - databaseNameOverride: ''
                 - confirmationMessage: null
                 - isFetching: false
-                - changeset: ''
+                - changeset: '[{"key":"name","value":"did this one work?"}]'
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - resourceTypeOverride: null
@@ -768,7 +768,7 @@ appTemplate:
 
                     return data
                 - events: []
-                - tableName: ''
+                - tableName: test
                 - queryTimeout: '120000'
                 - requireConfirmation: false
                 - queryFailureConditions: ''
