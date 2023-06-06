@@ -535,12 +535,9 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - showFailureToaster: true
-                - query: |-
-                    CREATE TABLE IF NOT EXISTS test (
-                       id SERIAL PRIMARY KEY,
-                       name text,
-                       sleep text
-                    );
+                - query: >-
+                    alter table test alter column sleep set default
+                    pg_sleep(100);
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - error: null
